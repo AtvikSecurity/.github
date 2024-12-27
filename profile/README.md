@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+We're Atvik Security, a cybersecurity company focused on penetration testing, application security, and secure architecture design.
+
 <!--
 
 **Here are some ideas to get you started:**
