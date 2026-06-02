@@ -1,24 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "dependencyDashboard": true,
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 40,
-  "rebaseWhen": "conflicted",
-  "labels": [
-    "Kind/Dependency"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": ["before 5am on monday"]
-  },
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["lockFileMaintenance"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "minimumReleaseAge": "3 days"
-    }
-  ]
+  "extends": ["github>AtvikSecurity/renovate-config"]
 }
