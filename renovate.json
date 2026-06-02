@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>AtvikSecurity/renovate-config"]
+  "extends": ["local>AtvikSecurity/renovate-config"]
 }
